@@ -1,0 +1,5 @@
+const SUPABASE_URL = https://pcbdehqhkgufdlbtgscf.supabase.co;
+const SUPABASE_KEY = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjYmRlaHFoa2d1ZmRsYnRnc2NmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg0MjczNDEsImV4cCI6MjA4NDAwMzM0MX0.3Mh6in0Z81QYzqUb3l9UZnXmlI3iV1QfhXIlOAmj2uM
+
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+window.mllSupabase = supabase;
