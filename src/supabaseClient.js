@@ -1,5 +1,7 @@
+// Assicurati che non ci siano spazi prima di "https"
 const SUPABASE_URL = "https://pcbdehqkgufdlbtgscf.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjYmRlaHdrZ3V mZGxidGdzY2YiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTcyODExOTQzMCwiZXhwIjoyMDQzNjk1NDMwfQ.E3Njg0Mjc2NDEsImV4cCI6MjA4NDMwMzM0MX0.3Mh6in0Z81QYzqUb3l9UZnXmLi3iV1QfhXIlOAmj2uM";
 
+// Creazione del client con controllo di sicurezza
 const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 window.supabaseClient = supabase;
